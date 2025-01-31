@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Linux Website - Distribuciones</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon-linux.png" rel="icon" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/distros.css">
+
+    <!-- =======================================================
+  * Template Name: Logis
+  * Updated: May 30 2023 with Bootstrap v5.3.0
+  * Template URL: https://bootstrapmade.com/logis-bootstrap-logistics-website-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="header d-flex align-items-center fixed-top">
+        <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+            <a href="index.html" class="logo d-flex align-items-center">
+                <!-- Uncomment the line below if you also wish to use an image logo -->
+                <!-- <img src="assets/img/logo.png" alt=""> -->
+                <h1 class="header-title">Linux</h1>
+            </a>
+
+            <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+            <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="historia.html">Historia</a></li>
+                    <li><a href="porque-linux.html">¿Por qué Linux?</a></li>
+                    <li><a href="software-libre.html">Software Libre</a></li>
+                    <li class="dropdown">
+                        <a href="distros.html" class="active"><span>Distribuciones</span> <i
+                                class="bi bi-chevron-down dropdown-indicator"></i></a>
+                        <ul>
+                            <li class="dropdown">
+                                <a href="distros.html#sliders-distros"><span>Casos de Uso</span> <i
+                                        class="bi bi-chevron-down dropdown-indicator"></i></a>
+                                <ul>
+                                    <li><a href="distros.html#casos-title">PC Estándar</a></li>
+                                    <li><a href="distros.html#division-casos">PC de Bajos Recursos</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="distros.html#distros-title"><span>Distros Populares</span> <i
+                                        class="bi bi-chevron-down dropdown-indicator"></i></a>
+                                <ul>
+                                    <li><a href="https://ubuntu.com/" target="_blank">Ubuntu</a></li>
+                                    <li><a href="https://linuxmint.com/" target="_blank">Mint</a></li>
+                                    <li><a href="https://www.debian.org/index.es.html" target="_blank">Debian</a></li>
+                                    <li><a href="https://fedoraproject.org/" target="_blank">Fedora</a></li>
+                                    <li><a href="https://www.linuxliteos.com/" target="_blank">Linux Lite</a></li>
+                                    <li>
+                                        <a href="https://www.redhat.com/es/technologies/linux-platforms/enterprise-linux"
+                                            target="_blank">Red Hat</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="super-computers.html">Super Computadoras</a></li>
+                    <li>
+                        <a class="get-a-quote" href="conclusion.html">Conclusión</a>
+                    </li>
+                </ul>
+            </nav>
+            <!-- .navbar -->
+        </div>
+    </header><!-- End Header -->
+    <!-- End Header -->
+
+    <main id="main">
+
+        <!-- ======= Breadcrumbs ======= -->
+        <div class="breadcrumbs">
+            <div class="page-header d-flex align-items-center"
+                style="background-image: url('assets/img/banner-bg.jpg');">
+                <div class="container position-relative">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-lg-6 text-center">
+                            <h2>Distribuciones</h2>
+                            <p>Con tantas distribuciones de Linux disponibles, elegir la adecuada puede ser un desafío.
+                                Cada distribución tiene sus propias características, enfoques y objetivos, por lo que es
+                                importante elegir la que mejor se adapte a nuestras necesidades.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <nav>
+                <div class="container">
+                    <ol>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li>Distribuciones</li>
+                    </ol>
+                </div>
+            </nav>
+        </div><!-- End Breadcrumbs -->
+
+        <!-- Distribuciones Title Section -->
+        <section id="distros-title" class="services title-separator why-linux-title p-2">
+            <div class="container" data-aos="fade-up">
+                <div class="section-header">
+                    <!-- <span>¿Por qué utilizar Linux?</span> -->
+                    <h2>Distribuciones en Linux</h2>
+                </div>
+            </div>
+            <!-- ======= text-1 Section ======= -->
+            <div class="container text-img text-1" data-aos="fade-up">
+                <!-- Primer Row -->
+                <div class="row">
+                    <div class="col-lg-12 content rounded order-first order-lg-last gap-3 d-flex flex-column justify-content-center"
+                        data-aos="fade-up">
+                        <p class="text-center">Linux es un sistema operativo de código
+                            abierto, esto le permite a diferentes equipos o comunidades crear distintas distribuciones.
+                        </p>
+                        <p class="text-center">
+                            Cada distribución de Linux tiene sus propias características y enfoques, lo que permite a
+                            los usuarios elegir la que mejor se adapte a sus necesidades y preferencias. Algunas
+                            distribuciones están diseñadas para ser fáciles de usar y son ideales para principiantes,
+                            mientras que otras se enfocan en ofrecer un mayor nivel de personalización y control para
+                            usuarios avanzados. La elección de una distribución de Linux depende de las necesidades y
+                            preferencias del usuario, hay distribuciones específicas para ciertas tareas, como la
+                            seguridad, la recuperación de datos o la administración de servidores y otras se centran en
+                            la facilidad de uso y la experiencia del usuario.
+                        </p>
+                        <p class="text-center">
+                            A continuación puedes ver algunas de las distribuciones más populares:
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- ======= Fin text-1 Section ======= -->
+        </section>
+
+        <!-- ======= Sliders distros Section ======= -->
+        <section id="sliders-distros" class="call-to-action">
+            <div class="container" data-aos="zoom-out">
+                <div class="row justify-content-center">
+                    <div class="clients-slider swiper">
+                        <div class="swiper-wrapper align-items-center">
+                            <a href="https://ubuntu.com/" target="_blank"
+                                class="distros-slider distro-1 swiper-slide d-flex align-items-center justify-content-center">
+                            </a>
+                            <a href="https://linuxmint.com/" target="_blank"
+                                class="distros-slider distro-2 swiper-slide d-flex align-items-center justify-content-center">
+                            </a>
+                            <a href="https://www.debian.org/index.es.html" target="_blank"
+                                class="distros-slider distro-3 swiper-slide d-flex align-items-center justify-content-center">
+                            </a>
+                            <a href="https://fedoraproject.org/" target="_blank"
+                                class="distros-slider distro-4 swiper-slide d-flex align-items-center justify-content-center">
+                            </a>
+                            <a href="https://www.linuxliteos.com/" target="_blank"
+                                class="distros-slider distro-5 swiper-slide d-flex align-items-center justify-content-center">
+                            </a>
+                            <a href="https://www.redhat.com/es/technologies/linux-platforms/enterprise-linux"
+                                target="_blank"
+                                class="distros-slider distro-6 swiper-slide d-flex align-items-center justify-content-center">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Sliders Distros Section -->
+
+        <!-- Casos de Uso Title Section -->
+        <section id="casos-title" class="services title-separator casos-title p-2">
+            <div class="container" data-aos="fade-up">
+                <div class="section-header">
+                    <!-- <span>¿Por qué utilizar Linux?</span> -->
+                    <h2>Casos de Uso</h2>
+                </div>
+            </div>
+            <!-- ======= text-1 Section ======= -->
+            <div class="container text-img text-1" data-aos="fade-up">
+                <!-- Primer Row -->
+                <div class="row">
+                    <div class="col-lg-12 content rounded order-first order-lg-last gap-3 d-flex flex-column justify-content-center"
+                        data-aos="fade-up">
+                        <p class="text-center">Te presentamos dos casos de ejemplo diferentes sobre el uso de
+                            distribuciones de Linux. En ambos casos, exploraremos cómo elegir la distribución de Linux
+                            adecuada para satisfacer las necesidades específicas de cada caso y la capacidad de hardware
+                            de cada usuario.
+                        </p>
+                        <p class="text-center">
+                            <a href="#casos-title">
+                                Caso de Uso 1: PC Estándar
+                            </a>
+                        </p>
+                        <p class="text-center">
+                            <a href="#division-casos">
+                                Caso de Uso 2: PC de Bajos Recursos
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- ======= Fin text-1 Section ======= -->
+        </section>
+
+        <hr>
+
+        <!-- CASO 111111111111 -->
+
+        <!-- ======= Caso 1 Section ======= -->
+        <section id="caso-1-section" class="use section-bg caso-1-section">
+            <div class="container" data-aos="fade-up">
+                <!-- Inicio Caso 1 -->
+                <div class="row">
+                    <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
+                        <img src="assets/img/caso-1-illus.svg" class="img-fluid use-case-img" alt="">
+                    </div>
+                    <div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center"
+                        data-aos="fade-up" data-aos-delay="100">
+                        <a class="enlace-title" href="distros.html">
+                            <h3>Caso de uso 1: PC Estándar</h3>
+                        </a>
+                        <p class="fst-italic">
+                            El primer caso muestra la configuración y distribución recomendada para una PC normal de un
+                            desarrollador
+                            de sistemas
+                        </p>
+                        <ul>
+                            <li>
+                                <div class="bx bx-store-alt hardware-icon"></div>
+                                <div>
+                                    <h5>Recursos de Hardware:</h5>
+                                    <p>CPU: 2,5 GHz, RAM: 4 GB, Disco duro: 20 o 30 GB, Tarjeta gráfica.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="bx bx-images user-icon"></div>
+                                <div>
+                                    <h5>Usuario Objetivo:</h5>
+                                    <p>Estudiante/Desarrollador de Sistemas</p>
+                                </div>
+                            </li>
+                        </ul>
+                        <p>
+                            Para este caso te sugerimos que consideres <strong>Fedora</strong>. Fedora es una
+                            distribución popular y
+                            actualizada que
+                            ofrece una amplia variedad de herramientas de desarrollo y una comunidad de usuarios activa.
+                        </p>
+                    </div>
+                </div>
+                <!-- Fin caso 1 -->
+            </div>
+        </section><!-- End Caso 1 Section -->
+
+        <!-- ======= text-img-1 Section ======= -->
+        <div class="container text-img text-img-1" data-aos="fade-up">
+            <!-- Primer Row -->
+            <div class="row my-5">
+                <div class=" col-lg-6 position-relative align-self-center order-lg-last order-first"
+                    data-aos="fade-left">
+                    <img src="assets/img/fedora-1.jpg" class="img-fluid rounded w-100" alt="" />
+                    <div class="caption">
+                        <p>
+                            KDE Plasma Desktop.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 content rounded order-last order-lg-first gap-3 d-flex flex-column justify-content-center"
+                    data-aos="fade-right">
+                    <h3 class="text-center">Fedora</h3>
+                    <p class="text-center">Es una distribución respaldada por Red Hat y conocida por su enfoque en la
+                        adopción temprana de tecnologías emergentes, su compromiso con el software libre y su comunidad
+                        activa. Ofrece actualizaciones frecuentes y una amplia selección de software, lo que lo
+                        convierte en una opción popular para los desarrolladores y aquellos que desean estar a la
+                        vanguardia de la tecnología.
+                    </p>
+                    <p class="text-center">
+                        Esta distribución se adhiere a una política estricta de incluir solo software de código abierto
+                        en su repositorio principal. Esto puede ser importante para los desarrolladores de sistemas que
+                        desean trabajar en un entorno que promueva la libertad y la transparencia.
+                    </p>
+                </div>
+            </div>
+            <!-- Segundo Row -->
+            <div class="row">
+                <div class=" col-lg-6 position-relative align-self-center order-lg-first order-first"
+                    data-aos="fade-right">
+                    <img src="assets/img/fedora-2.jpg" class="img-fluid rounded w-100" alt="" />
+                    <div class="caption">
+                        <p>
+                            Cinnamon Desktop.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 content rounded order-last order-lg-last gap-3 d-flex flex-column justify-content-center"
+                    data-aos="fade-left">
+                    <p class="text-center">Además, posee una amplia selección de paquetes de software disponibles en sus
+                        repositorios oficiales. Esto incluye una gran variedad de herramientas y bibliotecas utilizadas
+                        en el desarrollo de sistemas (ej.: Fedora Copr que es un repositorio de paquetes adicionales
+                        mantenido por la comunidad, que brinda aún más opciones para personalizar y ampliar tu sistema).
+                    </p>
+                    <p class="text-center">
+                        Se compone de dos partes principales: el núcleo del sistema operativo, conocido como Linux, y
+                        las
+                        herramientas y utilidades del proyecto GNU. Es altamente personalizable, se utiliza en una
+                        amplia gama de
+                        dispositivos y cuenta con una comunidad de desarrolladores activa que trabaja constantemente en
+                        la mejora
+                        del sistema operativo. Además, la filosofía de código abierto de GNU/Linux fomenta la
+                        colaboración y el
+                        intercambio de conocimientos entre desarrolladores y usuarios.
+                    </p>
+                </div>
+            </div>
+            <!-- Tercer Row -->
+            <div class="row my-5">
+                <div class=" col-lg-6 position-relative align-self-center order-lg-last order-first"
+                    data-aos="fade-left">
+                    <img src="assets/img/fedora-3.jpg" class="img-fluid rounded w-100" alt="" />
+                </div>
+                <div class="col-lg-6 content rounded order-last order-lg-first gap-3 d-flex flex-column justify-content-center"
+                    data-aos="fade-right">
+                    <!-- <h3 class="text-center">Fedora</h3> -->
+                    <p class="text-center">Esta distro ofrece diferentes variantes con diferentes entornos de
+                        escritorio. De manera predeterminada utiliza GNOME, pero también están disponibles opciones como
+                        KDE Plasma, Xfce, LXQt, Cinnamon y más. Esto permite una mayor personalización y te permite
+                        trabajar con el entorno que te resulte más cómodo y productivo.
+                    </p>
+                    <p class="text-center">Fedora cuenta con 3 sistemas principales:
+                    </p>
+                    <p class="text-center">
+                        <strong>Workstation:</strong> edición pulida y fácil de usar para todo tipo de usuarios. Podemos
+                        instalarla en
+                        cualquier portátil o PC de sobremesa y trae todo lo necesario para empezar a trabajar con ella
+                        desde el primer momento.
+                    </p>
+                    <p class="text-center">
+                        <strong>Server:</strong> un potente servidor Linux, poderoso y flexible, que cuenta con la
+                        última tecnología para centros de datos.
+                    </p>
+                    <p class="text-center">
+                        <strong>IoT:</strong> una base para montar en cualquier dispositivo del Internet de las
+                        Cosas.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- ======= Fin text-img-1 Section ======= -->
+
+        <!-- ======= Video Holamundo Section ======= -->
+        <section id="video-historia-section" class="video-historia-section">
+            <div class="container text-center" data-aos="zoom-out">
+                <a href="https://www.youtube.com/watch?v=WWJbCPgEN00&ab_channel=HolaMundo"
+                    class="glightbox play-btn"></a>
+                <h3>7 distribuciones de Linux para programar</h3>
+                <!-- <p>"La revolución tecnológica de los años 70 liderada por programadores que buscaban democratizar las
+                    tecnologías digitales y permitir que cualquier pudiera modificar a su gusto un sistema operativo.".
+                </p> -->
+            </div>
+        </section><!-- Fin Video Holamundo Section -->
+
+        <!-- ======= Requisitos-1 Section ======= -->
+        <section id="events" class="events events-1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 offset-lg-3 d-flex align-items-stretch">
+                        <div class="card" data-aos="fade-up">
+                            <div class="card-img">
+                                <img src="assets/img/computer-dev.jpg" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title"><a>Requisitos Mínimos</a></h5>
+                                <p class="card-text">Los requisitos de hardware necesarios son razonables y puede
+                                    ejecutarse en una computadora estándar, para un mejor rendimiento y capacidad de
+                                    respuesta, se recomienda tener al menos:
+                                </p>
+                                <p class="card-text">
+                                    <strong>CPU:</strong> 2,5 GHz.
+                                    <br>
+                                    <strong>RAM:</strong> 4 GB.
+                                    <br>
+                                    <strong>Disco duro:</strong> 20 o 30 GB.
+                                    <br>
+                                    Se recomienda <strong>Conexión a Internet</strong> para descargar actualizaciones.
+                                    <br>
+                                    <strong>Tarjeta gráfica</strong> compatible.
+                                </p>
+                                <p class="card-text">
+                                    Pero hay que tener en cuenta que los requisitos de hardware pueden variar según el
+                                    entorno de escritorio que elijas. Algunos entornos de escritorio más ligeros, como
+                                    Xfce o LXQt, pueden funcionar bien incluso en hardware más antiguo o con recursos
+                                    limitados.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section><!-- End Events-1 Section -->
+
+        <!-- FIN CASO 111111111111 -->
+
+        <hr id="division-casos">
+
+        <!-- CASO 2222222222222 -->
+
+        <section id="caso-2-section" class="use section-bg caso-2-section">
+            <div class="container" data-aos="fade-up">
+                <!-- Inicio Caso 1 -->
+                <div class="row">
+                    <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
+                        <img src="assets/img/caso-2-illus.svg" class="img-fluid use-case-img" alt="">
+                    </div>
+                    <div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center"
+                        data-aos="fade-up" data-aos-delay="100">
+                        <a class="enlace-title" href="distros.html">
+                            <h3>Caso de uso 2: PC de Bajos Recursos</h3>
+                        </a>
+                        <p class="fst-italic">
+                            El segundo caso muestra la configuración y distribución recomendada para una PC de bajos
+                            recursos de una
+                            familia con estudiantes de nivel primario y secundario.
+                        </p>
+                        <ul>
+                            <li>
+                                <div class="bx bx-store-alt hardware-icon"></div>
+                                <div>
+                                    <h5>Recursos de Hardware:</h5>
+                                    <p>RAM: 2GB, ROM: 300GB, Procesador de Gama Baja.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="bx bx-images user-icon"></div>
+                                <div>
+                                    <h5>Usuario Objetivo:</h5>
+                                    <p>Estudiante de nivel Primario/Secundario.</p>
+                                </div>
+                            </li>
+                        </ul>
+                        <p>
+                            Para este caso nuestra sugerencia es que consideres <strong>Linux Lite</strong>. Linux Lite
+                            es una
+                            distribución
+                            ligera y rápida que está diseñada para funcionar en sistemas de hardware más antiguos y con
+                            recursos
+                            limitados. A continuación te presentamos nuestro análisis sobre este caso.
+                        </p>
+                    </div>
+                </div>
+                <!-- Fin caso 1 -->
+            </div>
+        </section><!-- End Caso 2 Section -->
+
+        <!-- ======= text-img-1 Section ======= -->
+        <div class="container text-img text-img-1" data-aos="fade-up">
+            <!-- Primer Row -->
+            <div class="row my-5">
+                <div class=" col-lg-6 position-relative align-self-center order-lg-last order-first"
+                    data-aos="fade-left">
+                    <img src="assets/img/caso2-1.jpg" class="img-fluid rounded w-100" alt="" />
+                </div>
+                <div class="col-lg-6 content rounded order-last order-lg-first gap-3 d-flex flex-column justify-content-center"
+                    data-aos="fade-right">
+                    <!-- <h3 class="text-center">Fedora</h3> -->
+                    <p class="text-center">Para el caso de uso de un equipo de bajos recursos, con capacidad ram y rom
+                        limitada (ram de 2GB y rom de 300 GB), con un procesador de gama baja nuevo (se podría a tomar
+                        por ejemplo a consideración los lanzados en 2022; en caso de procesadores Intel Atom y Celeron,
+                        de entre 5 a 8 núcleos y en caso de AMD, Ryzen 3 de rendimiento y consumo energético similar, a
+                        pesar de las diferencias de arquitectura); debemos buscar distribuciones ligeras de Linux.
+                    </p>
+                    <p class="text-center">
+                        Aparte de ello, si nos enfocamos en un caso de uso orientado a usuarios con conocimiento técnico
+                        limitado, como lo son el uso hogareño por parte de alumnos de primario y secundario, debemos
+                        considerar opciones que sean amigables, accesibles e intuitivas con el usuario. Distribuciones
+                        de Linux que, contemplando los recursos de hardware previamente mencionados, posean una curva de
+                        aprendizaje suave.
+                    </p>
+                </div>
+            </div>
+            <!-- Segundo Row -->
+            <div class="row">
+                <div class=" col-lg-6 position-relative align-self-center order-lg-first order-first"
+                    data-aos="fade-right">
+                    <img src="assets/img/caso2-2.jpg" class="img-fluid rounded w-100" alt="" />
+                    <!-- <div class="caption">
+                        <p>
+                            Cinnamon Desktop.
+                        </p>
+                    </div> -->
+                </div>
+                <div class="col-lg-6 content rounded order-last order-lg-last gap-3 d-flex flex-column justify-content-center"
+                    data-aos="fade-left">
+                    <p class="text-center">Basta realizar una búsqueda en Google, para obtener una amplia cantidad de
+                        resultados útiles respecto a “Linux para PC de bajos recursos 2023”. Y revisando entre los
+                        enlaces sugeridos por el buscador, ciertas distribuciones tenderán a repetirse como sugerencia o
+                        alternativa. Es importante, aun así, poder profundizar en la prestación que puede brindar un SO
+                        Linux y en sus requerimientos.
+                    </p>
+                    <p class="text-center">
+                        Prestando atención a las distribuciones sugeridas “Más fáciles de usar” La opción mas atractiva
+                        es Linux Mint, pero al igual que otro sugerido, Elementary OS; requieren 4 GB de ram para
+                        funcionar, lo cual supera nuestra memoria. En el caso de Zorin OS, requiere un mínimo de 2 GB,
+                        lo cual sigue siendo un limitante en cuanto a memoria, pero se acerca más a nuestra necesidad,
+                        considerando su interfaz de diseño similar a Windows y MacOS.
+                    </p>
+                    <p class="text-center">Entonces, enfocándonos en las distribuciones sugeridas “Más ligeras” tenemos
+                        3 distribuciones, en las que, por requerimiento de memoria, destacan Lubuntu y antiX, siendo la
+                        primera, basada en la ultima versión de Ubuntu y la segunda, en Debian.
+                    </p>
+                    <p class="text-center">Pero, la opción más optima, como se fue analizando, será en este caso Linux
+                        Lite.
+                    </p>
+                </div>
+            </div>
+            <!-- Tercer Row -->
+            <div class="row my-5">
+                <div class=" col-lg-6 position-relative align-self-center order-lg-last order-first"
+                    data-aos="fade-left">
+                    <img src="assets/img/caso2-3.jpg" class="img-fluid rounded w-100" alt="" />
+                    <div class="caption">
+                        <p>
+                            Linux Lite 5.2 Desktop.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 content rounded order-last order-lg-first gap-3 d-flex flex-column justify-content-center"
+                    data-aos="fade-right">
+                    <!-- <h3 class="text-center">Fedora</h3> -->
+                    <p class="text-center">
+                        Linux Lite, sistema operativo de código abierto, basado en Linux, requiere 768 MB de ram, está
+                        pensada para usuarios Windows, como puerta de entrada a Linux, con un entorno de escritorio
+                        similar. Como único detalle, solo esta disponible en arquitectura de 64 bits.
+                        <br>
+                        Algunas Recomendaciones:
+                    </p>
+                    <p class="text-center">
+                        <strong>Entorno de escritorio:</strong>
+                        <br>
+                        • XFCE
+                    </p>
+                    <p class="text-center">
+                        <strong>Aplicaciones:</strong>
+                        <br>
+                        • Web Browser - Chrome 111.0
+                        <br>
+                        • Email Client - Thunderbird 102.9
+                        <br>
+                        • Office Suite - LibreOffice 7.4.6.2
+                        <br>
+                        • Media Player - VLC 3.0.16
+                        <br>
+                        • Image Editor - Gimp 2.10.30
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- ======= Fin text-img-2 Section ======= -->
+
+        <!-- ======= Video lite Section ======= -->
+        <section id="video-historia-section" class="video-lite-section">
+            <div class="container text-center" data-aos="zoom-out">
+                <a href="https://www.youtube.com/watch?v=oS_-joFacZo&ab_channel=Mazthertutoriales"
+                    class="glightbox play-btn"></a>
+                <h3>El Sistema Operativo más RÁPIDO</h3>
+                <!-- <p>"La revolución tecnológica de los años 70 liderada por programadores que buscaban democratizar las
+                    tecnologías digitales y permitir que cualquier pudiera modificar a su gusto un sistema operativo.".
+                </p> -->
+            </div>
+        </section><!-- Fin Video Holamundo Section -->
+
+        <!-- ======= Requisitos-2 Section ======= -->
+        <section id="events" class="events events-1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 offset-lg-3 d-flex align-items-stretch">
+                        <div class="card" data-aos="fade-up">
+                            <div class="card-img">
+                                <img src="assets/img/computer-kid.jpg" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title"><a>Requisitos Mínimos</a></h5>
+                                <p class="card-text">Los requisitos de hardware necesarios para ejecutar Linux Lite son
+                                    sumamente accesibles y pueden
+                                    encontrarse inclusive en computadoras más antiguas.
+                                </p>
+                                <p class="card-text">
+                                    <strong>CPU:</strong> 1,5 GHz.
+                                    <br>
+                                    <strong>RAM:</strong> 1 GB.
+                                    <br>
+                                    <strong>Disco duro:</strong> 10 GB.
+                                </p>
+                                <p class="card-text">
+                                    Estos son los requisitos mínimos recomendados para ejecutar Linux Lite en un sistema
+                                    sin problemas. Cabe destacar que, como con cualquier sistema operativo, el
+                                    rendimiento puede variar dependiendo del hardware exacto utilizado y de las
+                                    aplicaciones que se ejecuten. Además, si deseas utilizar Linux Lite para tareas más
+                                    exigentes, como edición de video o juegos, se recomienda tener más RAM y una CPU más
+                                    potente para un rendimiento óptimo.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section><!-- End Events-2 Section -->
+
+    </main><!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-lg-6 col-md-12 footer-info">
+                    <a href="index.html" class="logo d-flex align-items-center">
+                        <span>Linux Website</span>
+                    </a>
+                    <p>
+                        El presente sitio web es un trabajo monográfico realizado en grupo con el objetivo de presentar
+                        las
+                        distintas características de Linux y la importancia que tiene este sistema operativo en el mundo
+                        de la
+                        tecnología.
+                    </p>
+                    <p>
+                        Esperamos que este sitio web sea de utilidad para aquellos que deseen conocer más sobre Linux y
+                        su impacto en el mundo de la tecnología.
+                    </p>
+                    <p>
+                        <a href="conclusion.html#faq-bibliografia" class="bibliografia-link">«Bibliografía»</a>
+                    </p>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-xs-12 footer-links footer-alumnos">
+                    <h4>Alumnos:</h4>
+                    <p>Ezequiel Grandía</p>
+                    <p>Evelyn Arielle Noya Fraga</p>
+                    <p>Lucas Bonadies</p>
+                    <p>Lautaro Ruíz</p>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-xs-12 footer-links">
+                    <h4>Instituto Superior Santo Domingo</h4>
+                    <p><strong>Carrera:</strong> Desarrollo de Software</p>
+                    <p><strong>Materia:</strong> Sistemas Operativos 2</p>
+                    <p><strong>Profesor:</strong> Emmanuel Galiotti</p>
+                    <p><strong>Año:</strong> 2023</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+    <!-- End Footer -->
+
+    <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
