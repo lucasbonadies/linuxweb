@@ -1,0 +1,25 @@
+.swiper-conclusion .testimonial-item h3 {
+    margin-bottom: 0;
+    position: relative;
+    z-index: 100;
+}
+
+.conclu-1 {
+    filter: brightness(90%) saturate(100%) hue-rotate(120deg);
+}
+
+.conclu-2 {
+    filter: brightness(90%) saturate(100%) hue-rotate(45deg);
+}
+/* 
+.conclu-3 {
+    filter: brightness(90%) saturate(100%) hue-rotate(300deg);
+} */
+
+.conclu-4 {
+    filter: brightness(90%) saturate(100%) hue-rotate(300deg);
+}
+
+.faq-conclu {
+    padding-top: 0;
+}

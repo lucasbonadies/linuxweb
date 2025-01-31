@@ -1,0 +1,302 @@
+.caso-1-section {
+    padding-top: 0;
+}
+
+.casos-title p:nth-child(2) {
+    margin-bottom: 0;
+}
+
+/*--------------------------------------------------------------
+# Video Historia Section
+--------------------------------------------------------------*/
+.video-historia-section {
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+.video-historia-section .container {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/caso-1-video.jpg") center center;
+    background-size: cover;
+    padding: 100px 60px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.video-historia-section h3 {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.video-historia-section p {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.video-historia-section .play-btn {
+    width: 94px;
+    height: 94px;
+    margin-bottom: 20px;
+    background: radial-gradient(var(--color-primary) 50%, rgba(0, 131, 116, 0.4) 52%);
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+}
+
+.video-historia-section .play-btn:before {
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    animation-delay: 0s;
+    animation: pulsate-btn 2s;
+    animation-direction: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: steps;
+    opacity: 1;
+    border-radius: 50%;
+    border: 5px solid rgba(0, 131, 116, 0.7);
+    top: -15%;
+    left: -15%;
+    background: rgba(198, 16, 0, 0);
+}
+
+.video-historia-section .play-btn:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-40%) translateY(-50%);
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 15px solid #fff;
+    z-index: 100;
+    transition: all 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.video-historia-section .play-btn:hover:before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-40%) translateY(-50%);
+    width: 0;
+    height: 0;
+    border: none;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 15px solid #fff;
+    z-index: 200;
+    animation: none;
+    border-radius: 0;
+}
+
+.video-historia-section .play-btn:hover:after {
+    border-left: 15px solid var(--color-primary);
+    transform: scale(20);
+}
+
+@keyframes pulsate-btn {
+    0% {
+        transform: scale(0.6, 0.6);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(1, 1);
+        opacity: 0;
+    }
+}
+
+/*--------------------------------------------------------------
+# Events
+--------------------------------------------------------------*/
+
+.events-1 {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.events-2 {
+    padding-top: 60px;
+    padding-bottom: 0;
+}
+
+.events .card {
+    border: 0;
+    padding: 0 30px;
+    margin-bottom: 60px;
+    position: relative;
+}
+
+.events .card-img {
+    width: calc(100% + 60px);
+    margin-left: -30px;
+    overflow: hidden;
+    z-index: 9;
+    border-radius: 0;
+}
+
+.events .card-img img {
+    max-width: 100%;
+    transition: all 0.3s ease-in-out;
+}
+
+.events .card-body {
+    z-index: 10;
+    background: #fff;
+    border-top: 4px solid #fff;
+    padding: 30px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    margin-top: -60px;
+    transition: 0.3s;
+}
+
+.events .card-title {
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.events .card-title a {
+    color: #37423b;
+    transition: 0.3s;
+}
+
+.events .card-text {
+    color: #5e5e5e;
+}
+
+.events .read-more a {
+    color: #777777;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+    transition: 0.3s;
+}
+
+.events .read-more a:hover {
+    color: #5fcf80;
+}
+
+.events .card:hover img {
+    transform: scale(1.1);
+}
+
+.events .card:hover .card-body {
+    border-color: #5fcf80;
+}
+
+.events .card:hover .card-body .card-title a {
+    color: #5fcf80;
+}
+
+/*--------------------------------------------------------------
+# Video lite Section
+--------------------------------------------------------------*/
+.video-lite-section {
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+.video-lite-section .container {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/caso-2-video.jpg") center center;
+    background-size: cover;
+    padding: 100px 60px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.video-lite-section h3 {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.video-lite-section p {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.video-lite-section .play-btn {
+    width: 94px;
+    height: 94px;
+    margin-bottom: 20px;
+    background: radial-gradient(var(--color-primary) 50%, rgba(0, 131, 116, 0.4) 52%);
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+}
+
+.video-lite-section .play-btn:before {
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    animation-delay: 0s;
+    animation: pulsate-btn 2s;
+    animation-direction: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: steps;
+    opacity: 1;
+    border-radius: 50%;
+    border: 5px solid rgba(0, 131, 116, 0.7);
+    top: -15%;
+    left: -15%;
+    background: rgba(198, 16, 0, 0);
+}
+
+.video-lite-section .play-btn:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-40%) translateY(-50%);
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 15px solid #fff;
+    z-index: 100;
+    transition: all 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.video-lite-section .play-btn:hover:before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-40%) translateY(-50%);
+    width: 0;
+    height: 0;
+    border: none;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 15px solid #fff;
+    z-index: 200;
+    animation: none;
+    border-radius: 0;
+}
+
+.video-lite-section .play-btn:hover:after {
+    border-left: 15px solid var(--color-primary);
+    transform: scale(20);
+}
+
+@keyframes pulsate-btn {
+    0% {
+        transform: scale(0.6, 0.6);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(1, 1);
+        opacity: 0;
+    }
+}
