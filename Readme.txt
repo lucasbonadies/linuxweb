@@ -5,4 +5,4 @@ Academic Purposes
 
 Template used: https://bootstrapmade.com/logis-bootstrap-logistics-website-template/
 
-Page: https://linuxweb.github.io/
+Page: https://lucasbonadies.github.io/linuxweb/
